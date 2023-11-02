@@ -42,13 +42,11 @@ Further renaming was done and we roughly can deduce the following information:
 
 Since we do have the logic and past OTP values, it is to no surprise that we need to do some form of mathematical computations. To do it efficiently, we will use the infamous 'z3' SMT solver that will help us eventually find our seed value and calculate our TOTP value.
 
-The following code performs an automated process of the following:
+Our [code solution](./solution.py) consists of the following process:
 - SSH into the target system and trigger the 'su' commmand to switch to the 'getflag' user.
 - 9 intentional, failed attempts were made to trigger 9 past OTP values.
 - For every past OTP value, add the value to the Z3 SMT solver object.
 - Once all 9 OTP values have been added, the Z3 SMT solver will calculate the value of the seed and help compute the OTP value for the 10th attempt.
 - For the 10th attempt, we will manually key in the OTP value and successfully log into the user 'getflag' and navigate accordingly (hence the interactive() function).
-
-https://github.com/TeamCytec/ctf-writeups/blob/cd8a20be52dbd0ff714d9f2429dfab8fbb69c349/acronisctf2023/6-instaloans-backup/lfi-postgres.py
 
 ![](./images/actf2023_c12_7.PNG)

@@ -21,7 +21,7 @@ Honestly speaking, just doing the injection alone seems to be a daunting task. S
 - Log in with the new creds.
 - View the user’s credit score to fetch the encoded file output and decode it in ASCII hex.
 
-[code reference to lfi-postgres.py here]
+[Link to LFI PostgreSQL Script here](./lfi-postgres.py)
 
 What I would just need to do in this case is just to provide the filepath of the file that I want to view, as shown in the screenshot below.
 
@@ -62,4 +62,4 @@ Since now we have a working Python RCE POC, it’s just a matter of listing the 
 
 Here's the code reference for the PostgreSQL RCE Python script:
 
-[reference to postgres rce here]
+[Link to RCE PostgreSQL Script here](./rce-postgres.py)
