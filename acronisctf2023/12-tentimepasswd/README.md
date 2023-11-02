@@ -49,6 +49,6 @@ The following code performs an automated process of the following:
 - Once all 9 OTP values have been added, the Z3 SMT solver will calculate the value of the seed and help compute the OTP value for the 10th attempt.
 - For the 10th attempt, we will manually key in the OTP value and successfully log into the user 'getflag' and navigate accordingly (hence the interactive() function).
 
-[z3 code base here]
+https://github.com/TeamCytec/ctf-writeups/blob/cd8a20be52dbd0ff714d9f2429dfab8fbb69c349/acronisctf2023/6-instaloans-backup/lfi-postgres.py
 
 ![](./images/actf2023_c12_7.PNG)
