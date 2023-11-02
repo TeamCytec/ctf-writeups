@@ -47,6 +47,6 @@ Our [code solution](./solution.py) consists of the following process:
 - 9 intentional, failed attempts were made to trigger 9 past OTP values.
 - For every past OTP value, add the value to the Z3 SMT solver object.
 - Once all 9 OTP values have been added, the Z3 SMT solver will calculate the value of the seed and help compute the OTP value for the 10th attempt.
-- For the 10th attempt, we will manually key in the OTP value and successfully log into the user 'getflag' and navigate accordingly (hence the interactive() function).
+- For the 10th attempt, we will manually key in the OTP value and successfully log into the user 'getflag' and navigate within the system (hence the interactive() function).
 
 ![](./images/actf2023_c12_7.PNG)
