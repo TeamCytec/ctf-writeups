@@ -54,4 +54,3 @@ From there, reading the flag.txt file was easy by sending the following HTTP par
 ```ip=$(cat%09flag.txt)```
 
 ![](./images/baby_web_1)
-
