@@ -3,3 +3,4 @@ This repo is to serve as a knowledge base repository to practice their writeups 
 
 ## List of Attempted CTFs
 - [Acronis CTF 2023](./acronisctf2023/)
+- [STANDCON CTF 2023](./standconctf2023/)
