@@ -124,4 +124,4 @@ Although the reversing is not 100% certain, we can guess the behaviour of this p
 
 If we look at the contents of the pastebin link, we have this string `c405d216`. If we use this as the XOR key, we will obtain the flag.
 
-Decryption found [here](https://gchq.github.io/CyberChef/#recipe=XOR(%7B'option':'UTF8','string':'c405d216'%7D,'Standard',false\)&input=MGBxeyBxfngYY1gFO0AFeDwBX3hXZXlzEXEPSG4).
+Decryption found [here](https://gchq.github.io/CyberChef/#recipe=XOR(%7B'option':'UTF8','string':'c405d216'%7D,'Standard',false)&input=MGBxeyBxfngYY1gFO0AFeDwBX3hXZXlzEXEPSG4).
